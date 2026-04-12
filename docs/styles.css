@@ -1,1 +1,31 @@
-/* css styles */
+/* 상단 전광판 숨김 */
+.tradingview-widget-container {
+  display: none !important;
+}
+body {
+  margin-top: 0 !important;
+  line-height: 1.7;
+}
+
+/* 프로필 이미지 꾸미기 */
+.about-entity img {
+  border-radius: 20px !important;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* 기술 배지 효과 */
+img[src*="img.shields.io"] {
+  transition: all 0.2s;
+  cursor: pointer;
+}
+img[src*="img.shields.io"]:hover {
+  transform: scale(1.1);
+  filter: brightness(1.1);
+}
+
+/* 섹션 구분선 */
+h2 {
+  border-left: 5px solid #75aadb;
+  padding-left: 15px;
+  margin-top: 40px;
+}
