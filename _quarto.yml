@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Jiho Min"
+  favicon: profile.png
 
 format:
   html:
