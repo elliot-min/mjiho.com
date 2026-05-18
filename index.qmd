@@ -16,7 +16,9 @@ about:
 --- 
 ### Hello! Welcome to **Jiho Min's personal website**.
 
-I am Jiho Min, a South Korean-American middle school student who is interested in coding, stock investing, and economics. I've done a few projects in Python, but I usually code for my own use. I'm also participating as a translator for various websites. I have various and diverse interests in many different fields, and I am always looking for new things to learn.
+I am Jiho Min, a South Korean-American middle school student passionate about technology, finance, and creating meaningful digital experiences. I love building things with code, exploring the world of stock investing and economics, and continuously expanding my knowledge across diverse fields.
+
+Beyond coding, I actively contribute as a translator for various international websites, bridging language barriers and making content accessible to wider audiences. I believe in the power of technology to solve real-world problems and am always eager to learn new skills and take on challenging projects.
 
 <div style="text-align: center; margin-top: 50px;">
   <a href="https://blog.mjiho.com" class="btn btn-primary btn-lg" role="button">
@@ -38,3 +40,19 @@ I am Jiho Min, a South Korean-American middle school student who is interested i
 
 ### 🚀 DevOps & Tools
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"> <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"> <img src="https://img.shields.io/badge/Quarto-75AADB?style=for-the-badge&logo=quarto&logoColor=white"> <img src="https://img.shields.io/badge/IFTTT-000000?style=for-the-badge&logo=ifttt&logoColor=white"> <img src="https://img.shields.io/badge/Zapier-FF4F00?style=for-the-badge&logo=zapier&logoColor=white">
+
+
+## 🎯 Featured Projects
+
+<div class="project-card">
+### ⚽ Seocho Middle School Soccer Club Website
+
+A comprehensive website for the Seocho Middle School soccer team, built entirely as a solo project. The platform provides team information, match schedules, player profiles, and performance statistics.
+
+**Tech Stack:** Python, Streamlit, Pandas, Plotly
+
+- **GitHub Repository:** <a href="https://github.com/jiho-m0521/seochofc" target="_blank">github.com/jiho-m0521/seochofc</a>
+- **Live Demo:** <a href="https://seochofc.streamlit.app" target="_blank">seochofc.streamlit.app</a>
+
+This project showcases my ability to build full-featured web applications using modern Python frameworks, with a focus on data visualization and user experience.
+</div>
