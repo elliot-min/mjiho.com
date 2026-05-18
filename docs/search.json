@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Jiho Min",
     "section": "",
-    "text": "I am Jiho Min, a South Korean-American middle school student who is interested in coding, stock investing, and economics. I’ve done a few projects in Python, but I usually code for my own use. I’m also participating as a translator for various websites. I have various and diverse interests in many different fields, and I am always looking for new things to learn.\n\n 🚀 Visit My Blog!"
+    "text": "I am Jiho Min, a South Korean-American middle school student passionate about technology, finance, and creating meaningful digital experiences. I love building things with code, exploring the world of stock investing and economics, and continuously expanding my knowledge across diverse fields.\nBeyond coding, I actively contribute as a translator for various international websites, bridging language barriers and making content accessible to wider audiences. I believe in the power of technology to solve real-world problems and am always eager to learn new skills and take on challenging projects.\n\n 🚀 Visit My Blog!"
   },
   {
     "objectID": "index.html#tech-stacks",
@@ -12,5 +12,12 @@
     "title": "Jiho Min",
     "section": "🛠 Tech Stacks",
     "text": "🛠 Tech Stacks\n\n📱 Mobile & Game Development\n    \n\n\n🌐 Web & Backend\n    \n\n\n📊 Data Science & Design\n    \n\n\n🚀 DevOps & Tools"
+  },
+  {
+    "objectID": "index.html#featured-projects",
+    "href": "index.html#featured-projects",
+    "title": "Jiho Min",
+    "section": "🎯 Featured Projects",
+    "text": "🎯 Featured Projects\n\n⚽ Seocho Middle School Soccer Club Website\nA comprehensive website for the Seocho Middle School soccer team, built entirely as a solo project. The platform provides team information, match schedules, player profiles, and performance statistics.\nTech Stack: Python, Streamlit, Pandas, Plotly\n\nGitHub Repository: github.com/jiho-m0521/seochofc\nLive Demo: seochofc.streamlit.app\n\nThis project showcases my ability to build full-featured web applications using modern Python frameworks, with a focus on data visualization and user experience."
   }
 ]
