@@ -1,58 +1,153 @@
 ---
 title: "Jiho Min"
 image: profile.png
-include-before-body: []
-about:
-  template: trestles
-  image-width: 400px
-  links:
-    - icon: github
-      text: Github
-      href: https://github.com/jiho-m0521
-    - icon: envelope
-      text: Email
-      href: mailto:kr.jiho0521@gmail.com
+---
 
---- 
-### Hello! Welcome to **Jiho Min's personal website**.
+```{=html}
+<section class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">16-year-old developer portfolio</p>
+    <h1>Hi, I'm Jiho Min.</h1>
+    <p class="hero-lead">
+      I build useful web apps, data tools, and digital experiences that connect
+      technology with school life, sports, finance, and learning.
+    </p>
+    <div class="hero-actions" aria-label="Profile links">
+      <a class="button primary" href="https://github.com/jiho-m0521" target="_blank" rel="noopener">GitHub</a>
+      <a class="button secondary" href="mailto:kr.jiho0521@gmail.com">Email</a>
+    </div>
+  </div>
+  <div class="hero-profile">
+    <img src="profile.png" alt="Portrait of Jiho Min">
+    <div class="quick-facts">
+      <div>
+        <span class="fact-label">Focus</span>
+        <strong>Web apps and data</strong>
+      </div>
+      <div>
+        <span class="fact-label">Location</span>
+        <strong>South Korea / U.S.</strong>
+      </div>
+      <div>
+        <span class="fact-label">Current Role</span>
+        <strong>Student developer</strong>
+      </div>
+    </div>
+  </div>
+</section>
 
-I am Jiho Min, a South Korean-American middle school student passionate about technology, finance, and creating meaningful digital experiences. I love building things with code, exploring the world of stock investing and economics, and continuously expanding my knowledge across diverse fields.
+<section id="about" class="section-panel">
+  <div class="section-heading">
+    <p class="eyebrow">About</p>
+    <h2>Developer, student, and translator.</h2>
+  </div>
+  <div class="section-body two-column">
+    <p>
+      I am a 16-year-old South Korean-American student who enjoys turning ideas
+      into practical software. I like building products that are easy to use,
+      well organized, and connected to real people around me.
+    </p>
+    <p>
+      My interests include web development, Python apps, financial markets,
+      data visualization, and international communication. Outside of coding, I
+      contribute as a translator for global websites and keep learning across
+      technology, economics, and design.
+    </p>
+  </div>
+</section>
 
-Beyond coding, I actively contribute as a translator for various international websites, bridging language barriers and making content accessible to wider audiences. I believe in the power of technology to solve real-world problems and am always eager to learn new skills and take on challenging projects.
+<section id="projects" class="section-panel">
+  <div class="section-heading">
+    <p class="eyebrow">Project Portfolio</p>
+    <h2>Selected work</h2>
+  </div>
+  <div class="project-grid">
+    <article class="project-card featured">
+      <div>
+        <p class="project-type">Web application</p>
+        <h3>Seocho Middle School Soccer Club Website</h3>
+        <p>
+          A full soccer team platform with team information, match schedules,
+          player profiles, and performance statistics. Built as a solo project
+          with a focus on real team operations and clear data presentation.
+        </p>
+      </div>
+      <div class="project-meta">
+        <span>Python</span>
+        <span>Streamlit</span>
+        <span>Pandas</span>
+        <span>Plotly</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/jiho-m0521/seochofc" target="_blank" rel="noopener">GitHub Repository</a>
+        <a href="https://seochofc.streamlit.app" target="_blank" rel="noopener">Live Demo</a>
+      </div>
+    </article>
 
-<div style="text-align: center; margin-top: 50px;">
-  <a href="https://blog.mjiho.com" class="btn btn-primary btn-lg" role="button">
-    🚀 Visit My Blog!
-  </a>
-</div>
+    <article class="project-card">
+      <div>
+        <p class="project-type">Learning lab</p>
+        <h3>Finance and Data Experiments</h3>
+        <p>
+          Small projects and notebooks for understanding markets, analyzing
+          data, and practicing how to explain complex information visually.
+        </p>
+      </div>
+      <div class="project-meta">
+        <span>Python</span>
+        <span>Pandas</span>
+        <span>Matplotlib</span>
+      </div>
+    </article>
+  </div>
+</section>
 
-
-## 🛠 Tech Stacks
-
-### 📱 Mobile & Game Development
-<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"> <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"> <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white"> <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white"> <img src="https://img.shields.io/badge/Unity-FFFFFF?style=for-the-badge&logo=unity&logoColor=black">
-
-### 🌐 Web & Backend
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"> <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"> <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"> <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/Flet-00D2FF?style=for-the-badge&logo=flet&logoColor=white">
-
-### 📊 Data Science & Design
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"> <img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white"> <img src="https://img.shields.io/badge/LaTeX-47A141?style=for-the-badge&logo=latex&logoColor=white"> <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white"> <img src="https://img.shields.io/badge/Matplotlib-ffffff?style=for-the-badge&logo=matplotlib&logoColor=black">
-
-### 🚀 DevOps & Tools
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white"> <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"> <img src="https://img.shields.io/badge/Quarto-75AADB?style=for-the-badge&logo=quarto&logoColor=white"> <img src="https://img.shields.io/badge/IFTTT-000000?style=for-the-badge&logo=ifttt&logoColor=white"> <img src="https://img.shields.io/badge/Zapier-FF4F00?style=for-the-badge&logo=zapier&logoColor=white">
-
-
-## 🎯 Featured Projects
-
-<div class="project-card">
-### ⚽ Seocho Middle School Soccer Club Website
-
-A comprehensive website for the Seocho Middle School soccer team, built entirely as a solo project. The platform provides team information, match schedules, player profiles, and performance statistics.
-
-**Tech Stack:** Python, Streamlit, Pandas, Plotly
-
-- **GitHub Repository:** <a href="https://github.com/jiho-m0521/seochofc" target="_blank">github.com/jiho-m0521/seochofc</a>
-- **Live Demo:** <a href="https://seochofc.streamlit.app" target="_blank">seochofc.streamlit.app</a>
-
-This project showcases my ability to build full-featured web applications using modern Python frameworks, with a focus on data visualization and user experience.
-</div>
+<section id="skills" class="section-panel">
+  <div class="section-heading">
+    <p class="eyebrow">Tech Stack</p>
+    <h2>Tools I use to build.</h2>
+  </div>
+  <div class="skills-grid">
+    <div class="skill-group">
+      <h3>Mobile and Game</h3>
+      <div class="skill-list">
+        <span>Flutter</span>
+        <span>Dart</span>
+        <span>Android</span>
+        <span>Kotlin</span>
+        <span>Unity</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <h3>Web and Backend</h3>
+      <div class="skill-list">
+        <span>Python</span>
+        <span>Django</span>
+        <span>Streamlit</span>
+        <span>HTML5</span>
+        <span>Flet</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <h3>Data and Design</h3>
+      <div class="skill-list">
+        <span>Pandas</span>
+        <span>Plotly</span>
+        <span>Matplotlib</span>
+        <span>LaTeX</span>
+        <span>Canva</span>
+      </div>
+    </div>
+    <div class="skill-group">
+      <h3>Tools and Automation</h3>
+      <div class="skill-list">
+        <span>GitHub</span>
+        <span>Quarto</span>
+        <span>Netlify</span>
+        <span>Notion</span>
+        <span>Zapier</span>
+      </div>
+    </div>
+  </div>
+</section>
+```
