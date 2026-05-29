@@ -4,6 +4,20 @@
     "href": "index.html",
     "title": "Jiho Min",
     "section": "",
-    "text": "16-year-old developer portfolio\n    Hi, I'm Jiho Min.\n    \n      I build useful web apps, data tools, and digital experiences that connect\n      technology with school life, sports, finance, and learning.\n    \n    \n      GitHub\n      Email\n    \n  \n  \n    \n    \n      \n        Focus\n        Web apps and data\n      \n      \n        Location\n        South Korea / U.S.\n      \n      \n        Current Role\n        Student developer\n      \n    \n  \n\n\n\n  \n    About\n    Developer, student, and translator.\n  \n  \n    \n      I am a 16-year-old South Korean-American student who enjoys turning ideas\n      into practical software. I like building products that are easy to use,\n      well organized, and connected to real people around me.\n    \n    \n      My interests include web development, Python apps, financial markets,\n      data visualization, and international communication. Outside of coding, I\n      contribute as a translator for global websites and keep learning across\n      technology, economics, and design.\n    \n  \n\n\n\n  \n    Project Portfolio\n    Selected work\n  \n  \n    \n      \n        Web application\n        Seocho Middle School Soccer Club Website\n        \n          A full soccer team platform with team information, match schedules,\n          player profiles, and performance statistics. Built as a solo project\n          with a focus on real team operations and clear data presentation.\n        \n      \n      \n        Python\n        Streamlit\n        Pandas\n        Plotly\n      \n      \n        GitHub Repository\n        Live Demo\n      \n    \n\n    \n      \n        Learning lab\n        Finance and Data Experiments\n        \n          Small projects and notebooks for understanding markets, analyzing\n          data, and practicing how to explain complex information visually.\n        \n      \n      \n        Python\n        Pandas\n        Matplotlib\n      \n    \n  \n\n\n\n  \n    Tech Stack\n    Tools I use to build.\n  \n  \n    \n      Mobile and Game\n      \n        Flutter\n        Dart\n        Android\n        Kotlin\n        Unity\n      \n    \n    \n      Web and Backend\n      \n        Python\n        Django\n        Streamlit\n        HTML5\n        Flet\n      \n    \n    \n      Data and Design\n      \n        Pandas\n        Plotly\n        Matplotlib\n        LaTeX\n        Canva\n      \n    \n    \n      Tools and Automation\n      \n        GitHub\n        Quarto\n        Netlify\n        Notion\n        Zapier"
+    "text": "I am Jiho Min, a South Korean-American middle school student passionate about technology, finance, and creating meaningful digital experiences. I love building things with code, exploring the world of stock investing and economics, and continuously expanding my knowledge across diverse fields.\nBeyond coding, I actively contribute as a translator for various international websites, bridging language barriers and making content accessible to wider audiences. I believe in the power of technology to solve real-world problems and am always eager to learn new skills and take on challenging projects."
+  },
+  {
+    "objectID": "index.html#tech-stacks",
+    "href": "index.html#tech-stacks",
+    "title": "Jiho Min",
+    "section": "🛠 Tech Stacks",
+    "text": "🛠 Tech Stacks\n\n📱 Mobile & Game Development\n    \n\n\n🌐 Web & Backend\n    \n\n\n📊 Data Science & Design\n    \n\n\n🚀 DevOps & Tools"
+  },
+  {
+    "objectID": "index.html#featured-projects",
+    "href": "index.html#featured-projects",
+    "title": "Jiho Min",
+    "section": "🎯 Featured Projects",
+    "text": "🎯 Featured Projects\n\n⚽ Seocho Middle School Soccer Club Website\nA comprehensive website for the Seocho Middle School soccer team, built entirely as a solo project. The platform provides team information, match schedules, player profiles, and performance statistics.\nTech Stack: Python, Streamlit, Pandas, Plotly\n\nGitHub Repository: github.com/jiho-m0521/seochofc\nLive Demo: seochofc.streamlit.app\n\nThis project showcases my ability to build full-featured web applications using modern Python frameworks, with a focus on data visualization and user experience."
   }
 ]
