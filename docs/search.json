@@ -4,20 +4,27 @@
     "href": "index.html",
     "title": "Jiho Min",
     "section": "",
-    "text": "I am Jiho Min, a South Korean-American middle school student passionate about technology, finance, and creating meaningful digital experiences. I love building things with code, exploring the world of stock investing and economics, and continuously expanding my knowledge across diverse fields.\nBeyond coding, I actively contribute as a translator for various international websites, bridging language barriers and making content accessible to wider audiences. I believe in the power of technology to solve real-world problems and am always eager to learn new skills and take on challenging projects."
+    "text": "I am Jiho Min, a South Korean-American middle school student who likes turning ideas into useful web apps. I build projects around education, sports, data, and everyday workflows, with a focus on practical products that people can actually use.\nI am especially interested in technology, finance, economics, and translation. My work combines coding, product thinking, and clear communication across Korean and English.\n\nView Projects Contact Me"
   },
   {
-    "objectID": "index.html#tech-stacks",
-    "href": "index.html#tech-stacks",
+    "objectID": "index.html#core-skills",
+    "href": "index.html#core-skills",
     "title": "Jiho Min",
-    "section": "🛠 Tech Stacks",
-    "text": "🛠 Tech Stacks\n\n📱 Mobile & Game Development\n    \n\n\n🌐 Web & Backend\n    \n\n\n📊 Data Science & Design\n    \n\n\n🚀 DevOps & Tools"
+    "section": "Core Skills",
+    "text": "Core Skills\n\n\nWeb & App Development\nTypeScript React Vite Python Streamlit Django HTML CSS\n\n\nData & Learning Tools\nPandas Plotly SQLite IndexedDB Excel/CSV SRS Anki-style learning\n\n\nProduct & Workflow\nGitHub Netlify Quarto Notion Canva Automation"
   },
   {
     "objectID": "index.html#featured-projects",
     "href": "index.html#featured-projects",
     "title": "Jiho Min",
-    "section": "🎯 Featured Projects",
-    "text": "🎯 Featured Projects\n\n⚽ Seocho Middle School Soccer Club Website\nA comprehensive website for the Seocho Middle School soccer team, built entirely as a solo project. The platform provides team information, match schedules, player profiles, and performance statistics.\nTech Stack: Python, Streamlit, Pandas, Plotly\n\nGitHub Repository: github.com/jiho-m0521/seochofc\nLive Demo: seochofc.streamlit.app\n\nThis project showcases my ability to build full-featured web applications using modern Python frameworks, with a focus on data visualization and user experience."
+    "section": "Featured Projects",
+    "text": "Featured Projects\n\n\nSentenceAnki\nAn effective sentence memorization web app that helps learners study English sentences through fill-in-the-blank practice, imports, review history, and local-first study data.\nRole: Solo full-stack developer\nStack: TypeScript, React, Vite, Netlify Functions, Netlify Blobs, Supabase, IndexedDB, SQL.js, XLSX, Vitest\n\nLive Demo GitHub\n\n\n\nSeocho Middle School Soccer Club Website\nA soccer club website built for Seocho Middle School, including team information, match schedules, player profiles, and performance statistics.\nRole: Solo developer\nStack: Python, Streamlit, Pandas, Plotly\n\nLive Demo GitHub"
+  },
+  {
+    "objectID": "index.html#beyond-code",
+    "href": "index.html#beyond-code",
+    "title": "Jiho Min",
+    "section": "Beyond Code",
+    "text": "Beyond Code\n\nI also contribute as a translator for international websites, helping make information easier to access across languages. I want this portfolio to show not only what I have built, but also how I learn: by exploring real problems, making useful tools, and improving each project after it ships."
   }
 ]

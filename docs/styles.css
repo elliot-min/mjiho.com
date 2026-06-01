@@ -1,113 +1,308 @@
-/* 상단 전광판 숨김 */
-.tradingview-widget-container {
-  display: none !important;
+:root {
+  --ink: #172026;
+  --muted: #5d6975;
+  --line: #dfe6ec;
+  --panel: #ffffff;
+  --soft: #f5f8fb;
+  --accent: #0f766e;
+  --accent-dark: #115e59;
+  --accent-soft: #d9f3ef;
+  --gold: #b7791f;
 }
 
 body {
   margin-top: 0 !important;
-  line-height: 1.8;
+  color: var(--ink);
+  background:
+    linear-gradient(180deg, #f7fbff 0%, #ffffff 360px),
+    #ffffff;
   font-family:
-    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
-    Arial, sans-serif;
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.75;
 }
 
-/* 프로필 이미지 꾸미기 */
+a {
+  color: var(--accent-dark);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+}
+
+.page-columns .content {
+  max-width: 1040px;
+}
+
+.quarto-about-trestles {
+  align-items: center;
+  gap: clamp(32px, 7vw, 88px);
+  padding-top: clamp(28px, 5vw, 64px);
+  padding-bottom: 18px;
+}
+
+.about-entity {
+  background: transparent;
+}
+
 .about-entity img {
-  border-radius: 24px !important;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(23, 32, 38, 0.08);
+  border-radius: 18px !important;
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.14);
   transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
 }
 
 .about-entity img:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+  transform: translateY(-4px);
+  box-shadow: 0 30px 70px rgba(15, 23, 42, 0.18);
 }
 
-/* 기술 배지 효과 */
-img[src*="img.shields.io"] {
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  cursor: pointer;
-  margin: 4px;
-}
-img[src*="img.shields.io"]:hover {
-  transform: scale(1.15) translateY(-3px);
-  filter: brightness(1.15);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+.about-entity .title {
+  color: var(--ink);
+  font-size: clamp(2.2rem, 6vw, 4.5rem);
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 0.95;
+  margin-top: 24px;
 }
 
-/* 섹션 구분선 */
-h2 {
-  border-left: 5px solid #75aadb;
-  padding-left: 15px;
-  margin-top: 50px;
-  margin-bottom: 25px;
+.about-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.about-links .about-link {
+  align-items: center;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.06);
+  color: var(--ink);
+  display: inline-flex;
   font-weight: 700;
-  color: #2c3e50;
-}
-
-/* 프로젝트 카드 스타일 */
-.project-card {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  border-radius: 16px;
-  padding: 30px;
-  margin-bottom: 25px;
-  color: white;
-  transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease;
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
-}
-
-.project-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 40px rgba(102, 126, 234, 0.4);
-}
-
-.project-card h3 {
-  color: white;
-  margin-top: 0;
-  font-weight: 700;
-}
-
-.project-card a {
-  color: #ffd700;
+  gap: 8px;
+  padding: 10px 14px;
   text-decoration: none;
-  font-weight: 600;
+  transition:
+    border-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
 }
 
-.project-card a:hover {
-  text-decoration: underline;
+.about-links .about-link:hover {
+  border-color: var(--accent);
+  color: var(--accent-dark);
+  transform: translateY(-2px);
 }
 
-/* 버튼 스타일 개선 */
-.btn-primary {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  border: none;
-  border-radius: 12px;
-  padding: 15px 40px;
-  font-weight: 600;
-  transition: all 0.3s ease;
-  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+.hero-copy h3 {
+  color: var(--accent-dark);
+  font-size: clamp(1.45rem, 3vw, 2.25rem);
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 1.15;
+  margin-bottom: 18px;
 }
 
-.btn-primary:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 12px 30px rgba(102, 126, 234, 0.5);
-  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+.hero-copy p {
+  color: var(--muted);
+  font-size: 1.08rem;
+  max-width: 68ch;
 }
 
-/* 링크 스타일 */
-a {
-  transition: color 0.2s ease;
+.hero-actions,
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
 }
 
-/* 소셜 링크 개선 */
-.about-links a {
-  transition: all 0.3s ease;
+.hero-actions p,
+.project-links p {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 0;
 }
 
-.about-links a:hover {
-  transform: translateY(-3px);
+.primary-action,
+.secondary-action,
+.project-link {
+  align-items: center;
+  border-radius: 8px;
+  display: inline-flex;
+  font-weight: 800;
+  justify-content: center;
+  min-height: 44px;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+.primary-action {
+  background: var(--accent);
+  color: #ffffff;
+}
+
+.primary-action:hover {
+  background: var(--accent-dark);
+  color: #ffffff;
+}
+
+.secondary-action,
+.project-link {
+  background: #ffffff;
+  border: 1px solid var(--line);
+  color: var(--ink);
+}
+
+.secondary-action:hover,
+.project-link:hover {
+  border-color: var(--accent);
+  color: var(--accent-dark);
+}
+
+.quick-facts,
+.skills-grid,
+.projects-grid {
+  display: grid;
+  gap: 16px;
+}
+
+.quick-facts {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 44px 0 52px;
+}
+
+.fact-card,
+.skill-group,
+.project-card,
+.closing-panel {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: 0 14px 34px rgba(15, 23, 42, 0.07);
+}
+
+.fact-card {
+  color: var(--muted);
+  padding: 18px;
+}
+
+.fact-card strong {
+  color: var(--ink);
+  display: block;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+h2 {
+  border: 0;
+  color: var(--ink);
+  font-size: clamp(1.55rem, 3vw, 2.15rem);
+  font-weight: 850;
+  letter-spacing: 0;
+  margin: 58px 0 20px;
+  padding: 0;
+}
+
+h2::after {
+  background: var(--accent);
+  border-radius: 999px;
+  content: "";
+  display: block;
+  height: 4px;
+  margin-top: 10px;
+  width: 54px;
+}
+
+.skills-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.skill-group {
+  padding: 22px;
+}
+
+.skill-group h3,
+.project-card h3 {
+  color: var(--ink);
+  font-size: 1.15rem;
+  font-weight: 800;
+  margin: 0 0 12px;
+}
+
+.skill-group code {
+  background: var(--soft);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--accent-dark);
+  display: inline-block;
+  font-size: 0.88rem;
+  font-weight: 700;
+  margin: 4px 3px;
+  padding: 5px 10px;
+}
+
+.projects-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.project-card p {
+  color: var(--muted);
+}
+
+.project-card strong {
+  color: var(--ink);
+}
+
+.project-links {
+  margin-top: auto;
+  padding-top: 18px;
+}
+
+.closing-panel {
+  border-left: 4px solid var(--gold);
+  color: var(--muted);
+  font-size: 1.05rem;
+  padding: 24px;
+}
+
+@media (max-width: 900px) {
+  .quick-facts,
+  .skills-grid,
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .quarto-about-trestles {
+    padding-top: 20px;
+  }
+
+  .about-entity .title {
+    font-size: 2.6rem;
+  }
+
+  .primary-action,
+  .secondary-action,
+  .project-link {
+    width: 100%;
+  }
+
+  .hero-actions p,
+  .project-links p {
+    width: 100%;
+  }
 }
