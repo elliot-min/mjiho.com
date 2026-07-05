@@ -1,0 +1,48 @@
+---
+title: "Now"
+description: "Current focus and active learning areas for Jiho Min."
+---
+
+::: {.site-shell .page-shell}
+::: {.page-hero}
+::: {.eyebrow}
+Now
+:::
+
+# Current focus.
+
+A simple snapshot of what I am working on and learning right now.
+:::
+
+::: {.now-list}
+::: {.now-item}
+### Redesigning my personal website
+
+Turning this site into a clean portfolio, notes archive, and lightweight homepage.
+:::
+
+::: {.now-item}
+### Building small web tools
+
+Creating practical projects that can be tested quickly and improved gradually.
+:::
+
+::: {.now-item}
+### Studying programming and AI workflows
+
+Learning how to use AI carefully for coding, studying, summarizing, and planning.
+:::
+
+::: {.now-item}
+### Organizing projects and notes
+
+Keeping project ideas, devlogs, and learning notes easier to find.
+:::
+
+::: {.now-item}
+### Improving productivity systems
+
+Experimenting with browser workflows, study routines, and lightweight dashboards.
+:::
+:::
+:::

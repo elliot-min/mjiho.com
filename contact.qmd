@@ -1,0 +1,42 @@
+---
+title: "Contact"
+description: "Public contact links for Jiho Min."
+---
+
+::: {.site-shell .page-shell}
+::: {.page-hero}
+::: {.eyebrow}
+Contact
+:::
+
+# Let’s connect.
+
+For privacy, this page only includes public contact links and placeholders. No phone number, address, school details, or private schedule information is listed here.
+:::
+
+::: {.contact-grid}
+::: {.contact-card}
+### Email
+
+[hello@example.com](mailto:hello@example.com)
+:::
+
+::: {.contact-card}
+### GitHub
+
+[github.com/jiho-m0521](https://github.com/jiho-m0521)
+:::
+
+::: {.contact-card}
+### Website
+
+[mjiho.com](https://mjiho.com)
+:::
+
+::: {.contact-card}
+### Social links
+
+Optional public social links can be added here later.
+:::
+:::
+:::

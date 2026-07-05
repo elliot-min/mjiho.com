@@ -1,0 +1,44 @@
+---
+title: "About"
+description: "About Jiho Min, a student developer interested in AI tools, web development, finance, and practical software projects."
+---
+
+::: {.site-shell .page-shell}
+::: {.page-hero}
+::: {.eyebrow}
+About
+:::
+
+# A student developer learning by building.
+
+I’m Jiho Min, a student developer interested in AI tools, web development, productivity systems, finance, and practical software projects. I use this website to organize what I am building, what I am learning, and the notes I want to keep public.
+:::
+
+::: {.split-section}
+::: {.panel-card}
+## Interests
+
+- AI tools for studying and writing
+- Web apps that solve small real problems
+- Productivity systems and browser workflows
+- Finance, economics, and clear explanations
+- Bilingual communication and translation
+:::
+
+::: {.panel-card}
+## Currently learning
+
+- Better frontend architecture
+- Cleaner UI systems and responsive design
+- Practical AI workflows
+- Project documentation and maintainability
+- How to turn ideas into small shipped products
+:::
+:::
+
+::: {.panel-card}
+## What I like building
+
+I like building focused tools that are simple enough to use quickly but structured enough to improve over time. Good projects for me usually start with a real problem, a small prototype, and a clear plan for what to test next.
+:::
+:::

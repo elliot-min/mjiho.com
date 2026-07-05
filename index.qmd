@@ -1,108 +1,168 @@
 ---
 title: "Jiho Min"
+description: "Building useful tools with AI, code, and curiosity."
 image: profile.png
-include-before-body: []
-about:
-  template: trestles
-  image-width: 380px
-  links:
-    - icon: github
-      text: GitHub
-      href: https://github.com/jiho-m0521
-    - icon: envelope
-      text: Email
-      href: mailto:kr.jiho0521@gmail.com
 ---
 
-::: {.hero-copy}
-### Student builder interested in software, finance, and learning tools.
+::: {.site-shell}
+::: {.hero-dashboard}
+::: {.hero-content}
+::: {.eyebrow}
+Student developer · AI tools · Web projects
+:::
 
-I am Jiho Min, a South Korean-American middle school student who likes turning ideas into useful web apps. I build projects around education, sports, data, and everyday workflows, with a focus on practical products that people can actually use.
+# Building useful tools with AI, code, and curiosity.
 
-I am especially interested in technology, finance, economics, and translation. My work combines coding, product thinking, and clear communication across Korean and English.
+I’m a student developer interested in AI tools, web development, productivity systems, finance, and practical software projects. This site is my personal hub for projects, notes, learning, and experiments.
 
 ::: {.hero-actions}
-[View Projects](#featured-projects){.primary-action}
-[Contact Me](mailto:kr.jiho0521@gmail.com){.secondary-action}
+[View Projects](projects.qmd){.primary-action}
+[Read Notes](notes.qmd){.secondary-action}
+[Contact](contact.qmd){.secondary-action}
 :::
 :::
 
-::: {.quick-facts}
-::: {.fact-card}
-**Focus**
+::: {.hero-panel}
+::: {.status-card .accent-card}
+**Current focus**
 
-Full-stack web apps, learning tools, and data dashboards
+Redesigning this personal website and organizing a clearer project archive.
 :::
 
-::: {.fact-card}
-**Current Context**
+::: {.mini-grid}
+::: {.metric-card}
+**Mode**
 
-Middle school student and Seocho Middle School soccer club member
+Learning by building
 :::
 
-::: {.fact-card}
-**Working Style**
+::: {.metric-card}
+**Interests**
 
-Solo builder who designs, develops, tests, and ships projects end to end
+AI · Web · Finance
 :::
 :::
-
-## Core Skills
-
-::: {.skills-grid}
-::: {.skill-group}
-### Web & App Development
-
-`TypeScript` `React` `Vite` `Python` `Streamlit` `Django` `HTML` `CSS`
-:::
-
-::: {.skill-group}
-### Data & Learning Tools
-
-`Pandas` `Plotly` `SQLite` `IndexedDB` `Excel/CSV` `SRS` `Anki-style learning`
-:::
-
-::: {.skill-group}
-### Product & Workflow
-
-`GitHub` `Netlify` `Quarto` `Notion` `Canva` `Automation`
 :::
 :::
 
-## Featured Projects
+::: {.section-heading #featured-projects}
+## Featured projects
 
-::: {.projects-grid}
+A few practical tools and experiments that represent what I like building: focused, useful, and easy to improve.
+:::
+
+::: {.cards-grid}
 ::: {.project-card}
-### SentenceAnki
+::: {.card-topline}
+<span>Education</span><span>In progress</span>
+:::
 
-An effective sentence memorization web app that helps learners study English sentences through fill-in-the-blank practice, imports, review history, and local-first study data.
+### Social Study App
 
-**Role:** Solo full-stack developer  
-**Stack:** TypeScript, React, Vite, Netlify Functions, Netlify Blobs, Supabase, IndexedDB, SQL.js, XLSX, Vitest
+A quiz-based study web app for middle school social studies.
 
-::: {.project-links}
-[Live Demo](https://anki.mjiho.com){.project-link}
-[GitHub](https://github.com/jiho-m0521/SentenceAnki){.project-link}
+**Problem it solves:** Makes review sessions more active and easier to repeat before tests.
+
+**Stack:** React, TypeScript, local data, responsive UI
+
+::: {.card-actions}
+[Live Demo](#){.project-link}
+[GitHub](#){.project-link}
 :::
 :::
 
 ::: {.project-card}
-### Seocho Middle School Soccer Club Website
+::: {.card-topline}
+<span>Productivity</span><span>Prototype</span>
+:::
 
-A soccer club website built for Seocho Middle School, including team information, match schedules, player profiles, and performance statistics.
+### Reading Room Seat Tracker
 
-**Role:** Solo developer  
-**Stack:** Python, Streamlit, Pandas, Plotly
+A lightweight tool for checking and organizing reading room seat availability.
 
-::: {.project-links}
-[Live Demo](https://seochofc.streamlit.app){.project-link}
-[GitHub](https://github.com/jiho-m0521/seochofc){.project-link}
+**Problem it solves:** Reduces confusion around open seats and study space planning.
+
+**Stack:** HTML, CSS, JavaScript, simple data model
+
+::: {.card-actions}
+[Live Demo](#){.project-link}
+[GitHub](#){.project-link}
+:::
+:::
+
+::: {.project-card}
+::: {.card-topline}
+<span>AI</span><span>Experiments</span>
+:::
+
+### AI Study Tools
+
+Experiments using AI to improve studying, memorization, and productivity.
+
+**Problem it solves:** Turns repetitive study tasks into guided workflows and review prompts.
+
+**Stack:** AI workflows, prompt design, web prototypes
+
+::: {.card-actions}
+[Live Demo](#){.project-link}
+[GitHub](#){.project-link}
 :::
 :::
 :::
 
-## Beyond Code
+::: {.section-heading}
+## Recent notes
 
-::: {.closing-panel}
-I also contribute as a translator for international websites, helping make information easier to access across languages. I want this portfolio to show not only what I have built, but also how I learn: by exploring real problems, making useful tools, and improving each project after it ships.
+Short writing about development, studying, tools, and systems I am exploring.
+:::
+
+::: {.notes-grid}
+::: {.note-card}
+<span class="note-category">Devlog</span>
+### Designing a maintainable personal hub
+
+<span class="note-date">2026-07-05</span>
+
+How I think about turning a portfolio into a useful home base instead of a static resume.
+
+[Read more](notes.qmd){.text-link}
+:::
+
+::: {.note-card}
+<span class="note-category">AI Tools</span>
+### Using AI as a study assistant
+
+<span class="note-date">2026-07-05</span>
+
+A practical note on prompts, review loops, and checking AI output while studying.
+
+[Read more](notes.qmd){.text-link}
+:::
+:::
+
+::: {.split-section}
+::: {.panel-card}
+## Now
+
+- Redesigning my personal website
+- Building small web tools
+- Studying programming and AI workflows
+- Organizing projects and notes
+- Improving productivity systems
+
+[See current focus](now.qmd){.text-link}
+:::
+
+::: {.panel-card}
+## Contact & links
+
+The best way to reach me is by email or GitHub. I keep public links simple and avoid private information here.
+
+::: {.link-list}
+[Email](mailto:hello@example.com)
+[GitHub](https://github.com/jiho-m0521)
+[Website](https://mjiho.com)
+:::
+:::
+:::
 :::
