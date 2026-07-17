@@ -17,7 +17,8 @@ function Main() {
             <a href="https://www.instagram.com/ejm_ak" target="_blank" rel="noreferrer"><InstagramIcon/></a>
           </div>
           <h1>Elliot Min</h1>
-          <p>🇰🇷🇺🇸 Student</p>
+          <p>A student exploring finance, technology, and AI through practical projects.
+</p>
 
           <div className="mobile_social_icons">
             <a href="https://github.com/elliot-min" target="_blank" rel="noreferrer"><GitHubIcon/></a>
