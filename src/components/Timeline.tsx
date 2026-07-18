@@ -1,7 +1,7 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowTrendUp, faBook, faBriefcase, faCode } from '@fortawesome/free-solid-svg-icons';
+import { faArrowTrendUp, faBook, faCode } from '@fortawesome/free-solid-svg-icons';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import '../assets/styles/Timeline.scss'
@@ -21,7 +21,7 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faArrowTrendUp} />}
           >
-            <h3 className="vertical-timeline-element-title"></h3>
+            <h3 className="vertical-timeline-element-title">Investing Journey</h3>
             <h4 className="vertical-timeline-element-subtitle">Investing</h4>
             <p>
               Started investing in stocks, ETFs, and bonds at the young age of 14.

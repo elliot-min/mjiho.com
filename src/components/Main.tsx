@@ -16,7 +16,7 @@ function Main() {
             <a href="https://github.com/elliot-min" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.instagram.com/ejm_ak" target="_blank" rel="noreferrer"><InstagramIcon/></a>
           </div>
-          <h1>Elliot Min</h1>
+          <h1>Elliot Min 🇰🇷🇺🇸</h1>
           <p>A student exploring finance, technology, and AI through practical projects.
 </p>
 
